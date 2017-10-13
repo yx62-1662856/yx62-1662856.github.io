@@ -1,0 +1,84 @@
+/*
+-I added underline for the paragraph by using text-decoration.
+-I added text shadow for the header
+-I justfied the whole cotent in to the center.
+-I made the letter spacing for the paragraph.
+-I made the display in the form of flex box model
+-I changed the content align to column.
+*/
+
+
+
+#Header {
+		border: solid 8px black;
+	margin-left: auto;
+	margin-right:auto;
+	margin-bottom: 10px;
+	width: 500px;
+	text-align: center;
+	text-shadow: 3px 3px
+}
+
+#LeftNav {
+	border: dotted 5px black;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	float: left;
+	width:400px;
+	text-align: center;
+	padding-bottom: 8px
+}
+
+#Content {
+	border: dashed 5px black;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	width: 700px;
+	text-align: center;
+	padding: 15px;
+}
+
+
+#Footer {
+	border: solid 8px black;
+	text-align: center
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0px;
+	list-style: square url
+}
+
+
+#Header h1{
+	font-size: 40px;
+	font-family: "Times New Roman";
+	color: #000000;
+	font-weight: bold;
+}
+
+p {
+	font-size: 20px;
+	color: #483D8B;
+	font-family: "Arial";
+	text-decoration: underline;
+	letter-spacing: 2px
+}
+
+h3{
+	color: #483D8B;
+}
+div{
+	background-color: #DEB887
+}
+
+
+
+body{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
