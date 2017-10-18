@@ -1,0 +1,49 @@
+body {
+	background-color: #234735;
+}
+
+
+#a001 {
+	font-family: fantasy;
+	text-decoration: underline;
+
+}
+
+
+#a002 {
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+#center {
+	width: 500px;
+	height: 300px;
+	color: black;
+	background-size: 500px 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("https://static.pexels.com/photos/36764/marguerite-daisy-beautiful-beauty.jpg");
+}
+
+
+
+
+#flower {
+	margin: 20px;
+	width: 500px;
+}
+
+#flower2 {
+	float: right;
+	width: 300px;
+	border: 20px black solid;
+	border-radius: 15px;
+}
+
+
+
+#yes {
+	color: black;
+	border: 5px dotted red;
+}
