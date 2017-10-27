@@ -1,0 +1,44 @@
+
+body {
+	background-color: pink;
+}
+
+#a00001 {
+	border: red 5px solid;
+	border-radius: 5px;
+	
+}
+#jobapplication{
+	font-size: 30px;
+	font-family: fantasy;
+	text-decoration: underline;
+}
+#personalinfo{
+	font-size: 20px;
+	font-family: arial;
+	font-weight: bold;
+}
+
+#account {
+	font-size: 20px;
+	font-family: arial;
+	font-weight:bold;
+}
+
+#schedule {
+	font-size: 20px;
+	font-family: arial;
+	font-weight:bold;
+}
+
+#skill {
+	font-size: 20px;
+	font-family: arial;
+	font-weight:bold;
+}
+
+#how {
+	font-size: 20px;
+	font-family: arial;
+	font-weight:bold;
+}
